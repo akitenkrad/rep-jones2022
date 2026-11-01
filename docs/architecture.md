@@ -5,7 +5,7 @@
 ## Repository layout
 
 ```
-replications/jones2022/
+replications/rep-jones2022/
 ├── Cargo.toml                  # Rust workspace (members = ["simulation"])
 ├── pyproject.toml              # uv workspace (members = ["tools"])
 ├── simulation/                 # Rust crate `jones-simulation` (bin `jones`)

@@ -17,7 +17,7 @@ use jones2022_simulation::PAPER_ANCHORS;
 /// まとめて引けなくなる．
 pub const EXPERIMENT: &str = "jones";
 /// リポジトリの安定 id．git remote の名前とは独立に固定する．
-pub const REPO_ID: &str = "jones2022";
+pub const REPO_ID: &str = "rep-jones2022";
 /// 変換を当てて LLM に問い，出力の失敗特徴を測る実験なので分野は `llm-safety`．
 /// ABM の tick loop も乱数駆動の状態遷移も無いので `simulation` ではない．
 pub const DOMAIN: &str = "llm-safety";
@@ -29,7 +29,7 @@ pub const DOMAIN_ANALYSIS: &str = "analysis";
 pub const CONDITION_EVENT: &str = "x.jones2022.condition";
 
 /// 設計書 (Obsidian)．
-const OBSIDIAN_NOTE: &str = "研究/98_論文レポート/80-再現実験/実装完了/jones2022/設計書.md";
+const OBSIDIAN_NOTE: &str = "研究/98_論文レポート/80-再現実験/実装完了/rep-jones2022/設計書.md";
 
 /// この再現実験が対象としている論文．
 fn work() -> Work {

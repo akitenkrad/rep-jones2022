@@ -45,7 +45,7 @@ def _start(results_root, subcommand, parameters, **options):
     return Run.start(
         "jones",
         subcommand,
-        repo_id="jones2022",
+        repo_id="rep-jones2022",
         # フィクスチャなので llm ブロックを要求しない domain にしておく．
         domain="analysis",
         results_root=results_root,
